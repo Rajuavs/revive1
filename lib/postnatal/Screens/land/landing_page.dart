@@ -2365,6 +2365,7 @@ class _PostLandingPageState extends State<PostLandingPage> {
                               decoration:
                                   const BoxDecoration(color: appLightColor),
                               // height: gs <= 2 ? 100 : (gs <= 5 ? 900 : 800),
+
                               width: gs <= 2 ? 400 : (gs <= 5 ? 500 : 670),
                               child: DataList(),
                             ),
